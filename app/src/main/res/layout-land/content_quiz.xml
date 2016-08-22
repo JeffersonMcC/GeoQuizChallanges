@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_text_viewID"
+        android:layout_gravity="center_horizontal"
+        android:padding="24dp"
+        android:layout_marginTop="70dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/falseBtnID"
+            android:text="@string/false_button"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/trueBtnID"
+            android:text="@string/true_button"
+            android:layout_marginBottom="30dp"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/previous_Button_Id"
+        android:src="@drawable/arrow_left"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/next_buttonID"
+        android:src="@drawable/arrow_right"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cheat_buttonID"
+        android:text="@string/cheat_button"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="30dp"/>
+
+</FrameLayout>
